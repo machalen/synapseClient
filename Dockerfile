@@ -16,7 +16,7 @@ liblzma-dev libssl-dev libcurl4-openssl-dev libgdbm-dev libnss3-dev libreadline-
 unzip bzip2 g++
 
 #Install python3
-RUN apt-get update && apt-get install --yes python3
+RUN apt-get update && apt-get install --yes python3 python3-pip
 
 #Install synapse
 RUN pip3 install pandas
